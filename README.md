@@ -2,7 +2,7 @@
 
 This repository provides the implementation for the paper: **"High-Frequency Enhanced Hybrid Neural Representation for Video Compression"**.
 
-<!-- Optional: We will release codes coming soon. (如果代码确实还未完全准备好，可以保留此句，否则建议删除) -->
+<!-- Optional: We will release codes coming soon. -->
 
 ## Quick Start
 
@@ -11,8 +11,7 @@ This repository provides the implementation for the paper: **"High-Frequency Enh
 Install the required dependencies:
 ```bash
 pip install -r requirements.txt
-Use code with caution.
-Markdown
+
 Dataset Preparation
 Before training, download the bunny, UVG, and DAVIS validation datasets. Organize your dataset folder as follows (the default path expected by scripts is ./data/, or you can specify --data_path):
 ./
@@ -39,7 +38,6 @@ Before training, download the bunny, UVG, and DAVIS validation datasets. Organiz
 │               └── ...
 ├── train_nerv_all.py
 └── requirements.txt
-Use code with caution.
 Reproducing Experiments
 Training
 Example command to train a model (e.g., ~1.5M parameters on bunny):
@@ -64,8 +62,7 @@ python train_nerv_all.py \
    --lower_width 12 \
    -b 2 \                            # Batch size
    --lr 0.001                        # Learning rate
-Use code with caution.
-Bash
+
 Evaluation & Output Generation
 Evaluate a trained model and generate reconstructed images/videos:
 python train_nerv_all.py \
