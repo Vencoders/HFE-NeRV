@@ -10,7 +10,7 @@ This repository provides the implementation for the paper: **"High-Frequency Enh
 
 Install the required dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 Dataset Preparation
 Before training, download the bunny, UVG, and DAVIS validation datasets. Organize your dataset folder as follows (the default path expected by scripts is ./data/, or you can specify --data_path):
