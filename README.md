@@ -1,5 +1,5 @@
 # High-Frequency Enhanced Hybrid Neural Representation for video compression  
-### [Paper](https://arxiv.org/pdf/2411.06685) | [Project Page](https://vencoders.github.io/) | [UVG Data](http://ultravideo.fi/#testsequences) 
+### [Paper](https://arxiv.org/pdf/2411.06685) | [Project Page](https://vencoders.github.io/FANeRV.html) | [UVG Data](http://ultravideo.fi/#testsequences) 
 
 
 [//]: # ([Hao Chen]&#40;https://haochen-rye.github.io&#41;,)
