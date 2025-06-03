@@ -55,6 +55,9 @@ python train_nerv_all.py  --outf 1120  --data_path data/bunny --vid bunny_inpain
     --dec_strds 5 4 4 2 2 --ks 0_1_5 --reduce 1.2   \
     --modelsize 1.5  -e 300 --eval_freq 30  --lower_width 12 -b 2 --lr 0.001
 ```
+## Acknowledgments
+
+Our code was developed based on [HNeRV](https://github.com/haochen-rye/HNeRV).
 
 ## Citation
 If you find our work useful in your research, please cite:
